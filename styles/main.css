@@ -8,8 +8,44 @@ body {
   width: 100%;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Didact Gothic', sans-serif;
+}
+
+a {
+  color: #88281D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dd6e61;
+  cursor: pointer;
+}
+
+#navigation {
+  border-bottom: 3px solid #5F6069;
+}
+
+#nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+#nav-content > .half-nav-content {
+  width: 50%;
+  padding: 10px;
+}
+
+.half-nav-content > h1 {
+  margin: 0px;
+}
+
+.half-nav-content > hr {
+  border-color: #88281D;
 }
