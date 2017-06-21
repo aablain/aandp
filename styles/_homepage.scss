@@ -145,7 +145,6 @@ section#main-content {
         flex-basis: 100%;
         width: 100%;
         margin: 0px;
-        // margin-top: -20px;
       }
       img {
         max-width: 55%;
@@ -156,10 +155,12 @@ section#main-content {
         }
         h2 {
           order: 2;
-          // padding-top: 30px;
         }
       }
       &:last-of-type {
+        img {
+          max-width: 90%;
+        }
         h2 {
           margin-top: 0px;
         }
