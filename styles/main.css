@@ -6,6 +6,8 @@ html {
 body {
   height: 100%;
   width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
@@ -55,6 +57,7 @@ a {
     margin-bottom: 10px; }
 
 section#main-content {
+  width: 100%;
   max-width: 1000px;
   min-height: calc(100% - 280px);
   margin: auto;
@@ -109,21 +112,25 @@ section#main-content {
     section#main-content p:last-of-type {
       padding-top: 20px; }
   @media screen and (max-width: 600px) {
-    section#main-content .section__box h2 {
-      font-size: 2rem;
-      flex-basis: 100%;
-      width: 100%;
-      margin: 0px; }
-    section#main-content .section__box img {
-      max-width: 55%; }
-    section#main-content .section__box:nth-of-type(2n) img {
-      order: 1; }
-    section#main-content .section__box:nth-of-type(2n) h2 {
-      order: 2; }
-    section#main-content .section__box:last-of-type img {
-      max-width: 90%; }
-    section#main-content .section__box:last-of-type h2 {
-      margin-top: 0px; } }
+    section#main-content .section__box {
+      width: auto;
+      max-width: 100vw; }
+      section#main-content .section__box h2 {
+        font-size: 2rem;
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%;
+        margin: 0px; }
+      section#main-content .section__box img {
+        max-width: 55%; }
+      section#main-content .section__box:nth-of-type(2n) img {
+        order: 1; }
+      section#main-content .section__box:nth-of-type(2n) h2 {
+        order: 2; }
+      section#main-content .section__box:last-of-type img {
+        max-width: 90%; }
+      section#main-content .section__box:last-of-type h2 {
+        margin-top: 0px; } }
 
 @media screen and (max-width: 600px) {
   #nav-content {
