@@ -90,6 +90,9 @@ section#main-content {
     border: 1px solid $dark-red;
     width: 70%;
   }
+  hr, .section__box, p {
+    animation: revealSlowly 2200ms ease-in-out;
+  }
   .section__box {
     width: 100%;
     min-width: 100%;
