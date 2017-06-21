@@ -61,6 +61,12 @@ section#main-content {
   background-color: #fff;
   padding-bottom: 75px;
   color: #5F6069; }
+  section#main-content hr {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: none;
+    border: 1px solid #88281D;
+    width: 70%; }
   section#main-content .section__box {
     width: 100%;
     min-width: 100%;
@@ -113,7 +119,9 @@ section#main-content {
     section#main-content .section__box:nth-of-type(2n) img {
       order: 1; }
     section#main-content .section__box:nth-of-type(2n) h2 {
-      order: 2; } }
+      order: 2; }
+    section#main-content .section__box:last-of-type h2 {
+      margin-top: 0px; } }
 
 @media screen and (max-width: 600px) {
   #nav-content {

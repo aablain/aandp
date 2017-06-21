@@ -76,6 +76,13 @@ section#main-content {
   background-color: #fff;
   padding-bottom: 75px;
   color: #5F6069;
+  hr {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: none;
+    border: 1px solid $dark-red;
+    width: 70%;
+  }
   .section__box {
     width: 100%;
     min-width: 100%;
@@ -150,6 +157,11 @@ section#main-content {
         h2 {
           order: 2;
           // padding-top: 30px;
+        }
+      }
+      &:last-of-type {
+        h2 {
+          margin-top: 0px;
         }
       }
     }
