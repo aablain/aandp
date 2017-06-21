@@ -3,6 +3,7 @@
 $light-grey: #d5d5d9;
 $lighter-grey: #fdfdfd;
 $dark-red: #88281D;
+$off-white: rgb(246, 246, 246);
 
 // Animations ----------------
 
@@ -26,5 +27,7 @@ $dark-red: #88281D;
 // Media Queries -------------
 
 $mobile: "screen and (max-width: 600px)";
+$tablet: "screen and (max-width: 800px)";
+$smallPhone: "screen and (max-width: 330px)";
 
 // Misc. ---------------------
