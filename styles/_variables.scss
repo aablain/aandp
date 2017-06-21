@@ -6,7 +6,16 @@ $dark-red: #88281D;
 
 // Animations ----------------
 
+@-webkit-keyframes slideInFromRight {
+  0% { transform: translateX(300%);}
+  100% { transform: translateX(0%);}
+}
 
+@-webkit-keyframes slideInFromRightDelayed {
+  0% { transform: translateX(300%);}
+  20% { transform: translateX(300%);}
+  100% { transform: translateX(0%);}
+}
 
 // Media Queries -------------
 

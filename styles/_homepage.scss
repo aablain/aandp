@@ -59,6 +59,7 @@ a {
 .half-nav-content {
   width: 50%;
   padding: 10px;
+  animation: slideInFromRight 1400ms ease-in-out;
   h1 {
     margin: 0px;
   }
@@ -66,6 +67,9 @@ a {
     border-color: $dark-red;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  &:last-of-type {
+    animation: slideInFromRightDelayed 1800ms ease-in-out;
   }
 }
 

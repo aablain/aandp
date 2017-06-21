@@ -1,3 +1,15 @@
+@-webkit-keyframes slideInFromRight {
+  0% {
+    transform: translateX(300%); }
+  100% {
+    transform: translateX(0%); } }
+@-webkit-keyframes slideInFromRightDelayed {
+  0% {
+    transform: translateX(300%); }
+  20% {
+    transform: translateX(300%); }
+  100% {
+    transform: translateX(0%); } }
 html {
   width: 100%;
   height: 100%;
@@ -48,13 +60,16 @@ a {
 
 .half-nav-content {
   width: 50%;
-  padding: 10px; }
+  padding: 10px;
+  animation: slideInFromRight 1400ms ease-in-out; }
   .half-nav-content h1 {
     margin: 0px; }
   .half-nav-content hr {
     border-color: #88281D;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .half-nav-content:last-of-type {
+    animation: slideInFromRightDelayed 1800ms ease-in-out; }
 
 section#main-content {
   width: 100%;
